@@ -1,0 +1,38 @@
+/* #region icon */
+
+.icon {
+  display: block;
+  height: 24px;
+  width: 24px;
+  background-position: center;
+  background-size: cover;
+  transition: transform 0.3s;
+
+  @include hover(transform, scale(1.2));
+
+  @include on-tablet {
+      height: 32px;
+      width: 32px;
+    }
+
+    &__phone {
+      background-image: url(/src/icons/Icon-Phone-call.svg);
+    }
+
+    &__menu {
+      background-image: url(/src/icons/Icon-Burger-menu.svg);
+
+
+    &:hover {
+      background-image: url(/src/icons/Icon-Burger-menu-hover.svg);
+    }
+
+    }
+
+    &__close {
+      background-image: url(/src/icons/Icon-Close.svg);
+    }
+}
+
+
+/* #endregion  */
