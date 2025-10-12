@@ -1,7 +1,7 @@
 # Bike Store Landing Page 🚴
 > My first complete web development project
 
-![Website Preview](./src/images/preview.png)
+![Website Preview](/src/images/preview.png)
 
 ## About the Project
 
