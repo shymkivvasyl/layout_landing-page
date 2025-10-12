@@ -2,6 +2,7 @@
   box-sizing: border-box;
   background-image: url(/src/images/Footer-full.png);
   background-repeat: no-repeat;
+  z-index: -1;
   height: 200px;
   width: 100%;
   background-position: right;
@@ -13,7 +14,5 @@
 
   @include on-desktop {
     height: 555px;
-
   }
-
 }

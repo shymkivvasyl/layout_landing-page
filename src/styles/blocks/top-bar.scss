@@ -5,11 +5,9 @@
   justify-content: space-between;
   align-items: center;
 
-
-    @include on-tablet {
-      padding-block: 64px;
-    }
-
+  @include on-tablet {
+    padding-block: 64px;
+  }
 
   &__icons {
     display: flex;
@@ -24,7 +22,6 @@
     height: 38px;
 
     @include hover(transform, scale(1.2));
-
 
     @include on-tablet {
       height: 56px;

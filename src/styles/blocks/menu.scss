@@ -1,6 +1,5 @@
 /* #region menu */
 
-
 .menu {
   color: $main-text-color-black;
   font-weight: 700;
@@ -8,10 +7,11 @@
   box-sizing: border-box;
   height: 100vh;
   background: #c2c2c2;
-
+  overflow: auto;
 
   &__top {
     margin-bottom: 24px;
+    position: sticky;
 
     @include on-tablet {
       margin-bottom: 0;
@@ -47,4 +47,3 @@
 }
 
 /* #endregion */
-
