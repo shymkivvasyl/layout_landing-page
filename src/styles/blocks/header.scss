@@ -1,10 +1,10 @@
 /* #region header  */
 .header {
-  box-sizing: border-box;
   height: 100vh;
+  background-size: cover;
+  box-sizing: border-box;
   background-image: url('./../images/Header_photo.jpg');
   background-position: right;
-  background-size: cover;
 
   &__content {
     height: 100vh;
@@ -15,10 +15,10 @@
 
   &__title {
     font-weight: bold;
-    margin-bottom: 88px;
     letter-spacing: -1.5px;
-    text-align: center;
     line-height: 100%;
+    margin-bottom: 88px;
+    text-align: center;
     font-size: 36px;
 
     @include on-tablet {

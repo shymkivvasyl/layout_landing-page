@@ -28,14 +28,14 @@
         right: calc(100% + 24px);
         top: 50%;
         transform: translateY(-50%) translateX(24px);
-        color: $white-color;
         font-size: 12px;
         font-weight: 700;
-        align-items: end;
         letter-spacing: 2px;
-        opacity: 0;
+        align-items: end;
+        color: $white-color;
         transition: all $effectDuration;
         white-space: nowrap;
+        opacity: 0;
       }
       &:hover::after {
         transform: translateY(-50%) translateX(0);
