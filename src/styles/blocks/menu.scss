@@ -1,12 +1,12 @@
 /* #region menu */
 
 .menu {
-  color: $main-text-color-black;
   font-weight: 700;
-  text-transform: uppercase;
   box-sizing: border-box;
-  height: 100vh;
+  text-transform: uppercase;
+  color: $main-text-color-black;
   background: #c2c2c2;
+  height: 100vh;
   overflow: auto;
 
   &__top {
