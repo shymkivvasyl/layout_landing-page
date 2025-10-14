@@ -3,10 +3,10 @@
   background-image: url('./../images/Footer-full.png');
   background-repeat: no-repeat;
   z-index: -1;
-  width: 100%;
   height: 200px;
-  background-position: right;
+  width: 100%;
   background-size: cover;
+  background-position: right;
 
   @include on-tablet {
     height: 480px;
