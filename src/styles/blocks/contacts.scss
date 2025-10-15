@@ -29,6 +29,7 @@
         grid-column: -5 / -1;
       }
     }
+
   }
   &__buttom {
     transition: all $effectDuration;
@@ -50,7 +51,7 @@
     }
 
     &:hover {
-      transform: scale(1.2);
+      transform: scale(1.1);
       box-shadow: $buttom-hover-shadow;
     }
 
@@ -70,6 +71,8 @@
 
   &__name {
     height: 48px;
+
+
   }
 
   &__email {
@@ -78,6 +81,7 @@
 
   &__message {
     height: 148px;
+    min-height: 50px;
     border-radius: 16px;
     resize: vertical;
 
@@ -127,6 +131,8 @@
   font-size: 14px;
   line-height: 140%;
   color: $white-color;
+
+
 }
 
 .contact__us {
@@ -136,9 +142,15 @@
   font-size: 16px;
   line-height: 140%;
   color: $white-color;
+
+  transition: all $effectDuration;
+
+    &:hover {
+      transform: scale(1.02);
+      text-shadow: $text-hover-shadow;
+    }
 }
 
 .contact__link {
   text-decoration: none;
-
 }
