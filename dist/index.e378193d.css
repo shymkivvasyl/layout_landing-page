@@ -251,7 +251,7 @@
 }
 
 .menu__phone-number:hover {
-  text-shadow: 1px 4px 16px #474545dd;
+  text-shadow: 1px 4px 16px #474545cc;
   transform: scale(1);
 }
 
@@ -269,7 +269,7 @@
 }
 
 .menu__call-to-order:hover {
-  text-shadow: 1px 4px 16px #474545dd;
+  text-shadow: 1px 4px 16px #474545cc;
   transform: scale(1.02);
 }
 
