@@ -1,0 +1,28 @@
+.footer {
+  box-sizing: border-box;
+  background-image: url('./../images/Footer-full.png');
+  background-repeat: no-repeat;
+  z-index: -1;
+  height: 200px;
+  width: 100%;
+  background-size: cover;
+  background-position: right;
+
+  @include on-tablet {
+    height: 480px;
+  }
+
+  @include on-desktop {
+    height: 555px;
+
+  }
+
+
+
+  transition: all $effectDuration;
+
+    &:hover {
+      transform: scale(1.02);
+      text-shadow: $buttom-hover-shadow;
+    }
+}
